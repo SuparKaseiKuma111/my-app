@@ -1,0 +1,186 @@
+/* HEADER ----------------------------- */
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+.wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+/* HOME ----------------------------- */
+.home-content {
+    text-align: center;
+    margin-top: 17%;
+}
+.home-content p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+/* 見please enjoy our game出し */
+.page-title {
+    font-size: 3em;
+    font-weight: normal;
+    font-family: serif;
+    color: rgba(234, 234, 107, 0.914);
+}
+.page-p {
+    color: bisque;
+}
+/* 背景画像 */
+#home {
+    height: 500px;
+    background-image: url(/public/bg-main.jpg);
+    min-height: 100vh;
+}
+.bg {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+/* ----------------index按钮样式---------------- */
+.btn-login,
+.btn-register {
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 50px; /* 圆角效果 */
+    background-color: #4a7bff; /* 按钮的蓝色背景 */
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 按钮的阴影效果 */
+    transition: background-color 0.3s ease; /* 悬停的过渡效果 */
+
+    /* 使文字居中 */
+    display: inline-flex;
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+}
+/* 鼠标悬停效果 */
+.btn-login:hover,
+.btn-register:hover {
+    background-color: #365ebf; /* 悬停时背景颜色变暗 */
+}
+
+
+
+
+
+/* 服务部分样式 */
+.services-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color:gainsboro;
+    text-align: center;
+}
+
+.services-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.services-description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.services-list {
+    list-style-type: disc;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.services-list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+
+/* 你已有的样式... */
+
+/* 表单容器样式 */
+.form-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+.form-container form {
+    width: 100%;
+}
+
+.form-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 8px;
+    font-size: 16px;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4a7bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #365ebf;
+}
+
+
+
+/* 联系部分样式 */
+.contact-section {
+    background-color: #333;  /* 与图片相似的深色背景 */
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.contact-info {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.contact-address {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
